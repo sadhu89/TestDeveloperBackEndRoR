@@ -28,7 +28,7 @@ Ambos sirven para poblar la base de datos para realizar pruebas. La diferencia e
 
 - Explique algunos beneficios de utilizar Redis
 
-Al ser una base de datos en memoria, permite un performance mucho mayor comparado con las bases de datos tradicionales en los tiempo de lectura/escritura. Debido a que sus estructuras estan basadas en clave-valor, tiene una estructura ma ssimple y más eficiente para casos de uso específicos.
+Al ser una base de datos en memoria, permite un performance mucho mayor comparado con las bases de datos tradicionales en los tiempo de lectura/escritura. Debido a que sus estructuras estan basadas en clave-valor, tiene una estructura mas simple y más eficiente para casos de uso específicos.
 
 - Explique el aggregation framework de MongoDB
 
