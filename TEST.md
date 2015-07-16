@@ -24,6 +24,8 @@ La diferencia es que un string "foo" genera un nuevo objecto con un nuevo object
 - Al momento de hacer testing, ¿cuál es la diferencia entre usar fixtures y usar
 factories?
 
+Ambos sirven para poblar la base de datos para realizar pruebas. La diferencia es que los fixtures son simples archivos de texto plano(por ejemplo YAML) que se cargan en masa por el framework(puede ser lento si se cargan muchos fixtures innecesarios para el test), mientras que los factories son codigo (por ejemplo un archivo .rb) y se puede usar estos factories para generar instancias y guardar en la base de datos dinamicamente en tiempo de ejecucion segun los requerimientos de un test especifico.
+
 - Explique algunos beneficios de utilizar Redis
 
 Al ser una base de datos en memoria, permite un performance mucho mayor comparado con las bases de datos tradicionales en los tiempo de lectura/escritura. Debido a que sus estructuras estan basadas en clave-valor, tiene una estructura ma ssimple y m'as eficiente para casos de uso específicos.
